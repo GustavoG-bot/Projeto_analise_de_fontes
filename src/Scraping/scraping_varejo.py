@@ -32,20 +32,21 @@ class Scraping:
         self.bs4 = BeautifulSoup(self.html, 'html.parser')
 
     def pega_descricao(self):
-        html_descricao = self.bs4.find_all('p', {'class':'ProductCard__Title-sc-2vuvzo-0 iBDOQj'})
+        html_descricao = self.bs4.find_all(
+            'p', {'class': 'ProductCard__Title-sc-2vuvzo-0 iBDOQj'})
         self.descricao = [descricao.text for descricao in html_descricao]
 
     def pega_preco(self):
-        html_preco = self.bs4.find_all('span', {'class':'ProductPrice__PriceValue-sc-1tzw2we-6 kBYiGY'})
+        html_preco = self.bs4.find_all(
+            'span', {'class': 'ProductPrice__PriceValue-sc-1tzw2we-6 kBYiGY'})
         self.preco = [preco.text for preco in html_preco]
 
     def cria_dataframe(self):
         self.pega_descricao()
         self.pega_preco()
-        self.df = pd.DataFrame(data={'Descricao': self.descricao[:230],
+        self.df = pd.DataFrame(data={'Descricao': self.descricao,
                                      'Preco': self.preco})
 
     def salva_dataframe(self):
         os.chdir(os.path.dirname(self.save_path))
         self.df.to_csv('extra_scraping.csv')
-
