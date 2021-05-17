@@ -19,19 +19,19 @@ O trabalho então definido pelos analistas de dados é composto das seguintes et
 4) Possivel previsão
 5) Para uma melhor organização de todo o trabalho, foi definido uma estrutura via GitHub que é composto pela seguinte estrutura de projeto:
 
-**Input**: Pasta destinada a armazenar a base de dados com e sem limpeza que for criada durante o processo de estração
+- **Input**: Pasta destinada a armazenar a base de dados com e sem limpeza que for criada durante o processo de estração
 
-**Src**: Pasta destinada a armazenar os scripts de limpeza (Transform), scripts de Exploração (EDA) e os scripts de scraping
+- **Src**: Pasta destinada a armazenar os scripts de limpeza (Transform), scripts de Exploração (EDA) e os scripts de scraping
 
-**Model**: Pasta destinada a armazenas os futuros scripts de modelagem para a previsão
+- **Model**: Pasta destinada a armazenas os futuros scripts de modelagem para a previsão
 
-**Notebook:** Pasta destinada a armazenar os notebooks entregaveis demonstrando e explicando os resultados
+- **Notebook:** Pasta destinada a armazenar os notebooks entregaveis demonstrando e explicando os resultados
 
 ## ENGLISH
 
 ### Project description
 
-This github project has the main objective to analyze the principal factors that influence cellphones prices in Brazil. To achieve this idea, Insper Tech hired Gustavo Guedes, Rodrigo Coelho and Wilgner Lopes to realize the project.
+This github project has the main objective to analyze the principal factors that influence cellphones prices in Brazil. To achieve this idea, Insper Tech hired *Gustavo Guedes, Rodrigo Coelho and Wilgner Lopes* to realize the project.
 
 The work was organized in some steps:
 1) Data extraction 
@@ -41,10 +41,10 @@ The work was organized in some steps:
 
 5) The following folders are:
 
-**Input**: Database
+- **Input**: Database
 
-**Src**: Cleaning (Transform), Exploration (EDA), and scraping scripts.  
+- **Src**: Cleaning (Transform), Exploration (EDA), and scraping scripts.  
 
-**Model**: Future modeling predicts scripts. 
+- **Model**: Future modeling predicts scripts. 
 
-**Notebook:** Storytelling of the results. 
+- **Notebook:** Storytelling of the results. 
