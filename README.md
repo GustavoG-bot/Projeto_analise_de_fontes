@@ -17,7 +17,8 @@ O trabalho então definido pelos analistas de dados é composto das seguintes et
 2) Limpeza dos dados 
 3) Analise exploratoria
 4) Possivel previsão
-5) Para uma melhor organização de todo o trabalho, foi definido uma estrutura via GitHub que é composto pela seguinte estrutura de projeto:
+
+Para uma melhor organização de todo o trabalho, foi definido uma estrutura via GitHub que é composto pela seguinte estrutura de projeto:
 
 - **Input**: Pasta destinada a armazenar a base de dados com e sem limpeza que for criada durante o processo de estração
 
@@ -39,7 +40,7 @@ The work was organized in some steps:
 3) Data analysis 
 4) Possible prediction 
 
-5) The following folders are:
+The following folders are:
 
 - **Input**: Database
 
