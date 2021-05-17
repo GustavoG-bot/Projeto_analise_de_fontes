@@ -47,5 +47,5 @@ class Scraping:
 
     def salva_dataframe(self):
         os.chdir(os.path.dirname(self.save_path))
-        self.df.to_csv('carrefour_scraping.csv')
+        self.df.to_csv('extra_scraping.csv')
 
