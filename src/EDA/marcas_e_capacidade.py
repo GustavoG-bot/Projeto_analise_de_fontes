@@ -83,7 +83,7 @@ def pivotCAPAmarca(df123):
     pivot_aux.columns = ['Capacidade', 'Marca', 'Preco']
 
     fig = px.bar(pivot_aux, x='Marca', y='Preco', color='Capacidade',
-                 barmode='group', title='Relação entre capacidade, marca e preço')
+                 barmode='group', title='Gráfico 04 - Relação entre capacidade, marca e preço médio dos celulares')
 
     return [pivot, fig]
 
@@ -112,7 +112,7 @@ def pivotCAPAcores(df1234):
     pivot_aux.columns = ['Cores', 'Marca', 'Preco']
 
     fig = px.bar(pivot_aux, x='Marca', y='Preco', color='Cores', barmode='group',
-                  title='Relação entre cores, marca e preço dos celulares')
+                  title='Gráfico 05 - Relação entre cores, marca e preço médio dos celulares')
 
     return [fig, pivot]
 
